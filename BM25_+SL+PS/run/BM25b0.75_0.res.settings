@@ -1,0 +1,74 @@
+# Settings of Terrier (TRECQuerying) generated for run /home/tommaso/Desktop/projectIR/terrier-core-4.4/var/results/BM25b0.75_0.res
+#Thu Dec 13 20:23:18 CET 2018
+terrier.var=var
+terrier.share=share
+trec.encoding=UTF-8
+trec.model=BM25
+expansion.terms=10
+trecquery.ignore.desc.narr.name.tokens=true
+collection.spec=collection.spec
+ignore.low.idf.terms=true
+files.transforms=
+trec.results=results
+querying.preprocesses.controls=
+terrier.etc=/home/tommaso/Desktop/projectIR/terrier-core-4.4/etc
+docs.check=20
+trec.matching=Matching
+files.default.scheme=file
+match.empty.query=false
+blocks.size=1
+terrier.index.prefix=data
+stopwords.encoding=UTF-8
+trec.iteration=Q
+TrecQueryTags.doctag=top
+querying.preprocesses.order=
+TrecQueryTags.skip=narr
+tokeniser=EnglishTokeniser
+field.querying=false
+querying.postprocesses.controls=
+.casesensitive=false
+matching.postinglist.manager.plugins=
+terrier.home=/home/tommaso/Desktop/projectIR/terrier-core-4.4
+termpipelines=Stopwords,PorterStemmer
+max.term.length=20
+trec.runtag=BM25b0.75
+querying.postprocesses.order=
+trec.qe.model=org.terrier.matching.models.queryexpansion.Bo1
+stopwords.filename=stopword-list.txt
+trec.topics=/home/tommaso/Desktop/projectIR/topics.351-400_trec7.txt
+trec.querying.outputformat=org.terrier.structures.outputformat.TRECDocnoOutputFormat
+trec.querying.resultscache=org.terrier.structures.cache.NullQueryResultCache
+memory.reserved=100Mi
+stopwords.intern.terms=false
+trec.querying.dump.settings=true
+block.indexing=false
+terrier.plugins=
+querying.postfilters.order=
+TrecQueryTags.casesensitive=false
+querying.default.controls=
+blocks.max=100000
+matching.retrieved_set_size=1000
+trec.output.format.length=1000
+expansion.documents=3
+trec.manager=Manager
+ignore.empty.documents=false
+lowercase=true
+querying.allowed.controls=c,start,end
+TrecQueryTags.idtag=num
+trec.querycounter.type=sequential
+files.to.cache=
+trec.topics.parser=TRECQuery
+trec.querying.outputformat.docno.meta.key=docno
+terrier.index.path=index
+trec.results.suffix=.res
+terrier.index.retrievalLoadingProfile.default=true
+querying.postfilters.controls=
+TrecQueryTags.process=title,desc
+matching.dsms=
+manager.caching.filters=false
+querying.no.negative.requirement=
+# topicfile: /home/tommaso/Desktop/projectIR/topics.351-400_trec7.txt
+# run started at: 1544728996894
+# run finished at 1544728998730
+# c=0.0 c_set=false
+# model=BM25
